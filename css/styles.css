@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 80px;
+  color: #557174;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.1rem;
+  font-weight: lighter;
+  line-height: 2;
+  color: #557174;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #9dad7f;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f7f7e8;
+}
+
+/* class selectors */
+.top-container {
+  background-color: #f7f7e8;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+.freepik {
+  color: #C7CFB7;
+  font-size: 0.31rem;
+  display: inline;
+  position: absolute;
+  left: 30px;
+  bottom: 3px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skills{
+  margin: 90px auto 90px auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 175px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  margin: 90px auto 90px auto;
+}
+
+.get-in-touch {
+  font-weight: normal;
+  line-height: normal;
+  margin: 20px auto 20px auto;
+}
+.btn {
+  -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 21px;
+   background-color: #557174;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.btn:hover {
+   background: #C7CFB7;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   text-decoration: none;
+}
+
+.bottom-container{
+  position: relative;
+  background-color: #557174;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  color: #C7CFB7;
+  margin: auto 20px auto 20px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 10px
+}
+
+/* Images */
+
+.profile-image {
+  width: 15%;
+}
+
+.coding-logo {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dancing-logo {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 180px;
+  top: 80px;
+  right: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 180px;
+  left: 250px;
+  bottom: 300px;
+}
+
+.mountain {
+  width: 100%;
+  padding-top: 40px;
+  position: relative;
+  display: inline-block;
+  top: 10px;
+}
